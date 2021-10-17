@@ -24,8 +24,18 @@ body {
     align-items: center;
 }
 
+.slider__dots{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
 .dots {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
     width: 2rem;
     height: 2rem;
     cursor: pointer;
